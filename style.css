@@ -1,0 +1,83 @@
+body {
+    font-family: Arial;
+    background-color: #ddd;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.caixa {
+    background-color: white;
+    width: 650px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#grafico {
+    height: 320px;
+    background-color: #f5f5f5;
+    border: 1px solid #aaa;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    gap: 8px;
+    padding: 10px;
+
+    box-sizing: border-box;
+}
+
+.barra {
+    width: 40px;
+    background-color: #4d79ff;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    color: white;
+    font-size: 13px;
+
+    padding-top: 5px;
+
+    box-sizing: border-box;
+
+    transition: 0.3s;
+}
+
+.comparando {
+    background-color: orange;
+    transform: translateY(-10px);
+}
+
+.ordenado {
+    background-color: green;
+}
+
+#passo {
+    background-color: #eee;
+    padding: 12px;
+    min-height: 20px;
+}
+
+#resultado {
+    background-color: #eee;
+    padding: 15px;
+    min-height: 20px;
+}
